@@ -1,0 +1,281 @@
+[
+  {
+    "kind": "plot",
+    "family": "Bar plots with uncertainty or composition",
+    "subtype": "grouped_dose_bars",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "weight": 1.0,
+    "figure_id": "PMID_27764787_FIG_1",
+    "file": "examples/plots/bar_plots_with_uncertainty_or_composition.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Box, violin, histogram, and distribution plots",
+    "subtype": "method_boxplot",
+    "template_id": "T_FACETED_BOXPLOT",
+    "weight": 1.0,
+    "figure_id": "PMID_39186807_FIG_2",
+    "file": "examples/plots/box_violin_histogram_and_distribution_plots.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Composite multipanel figures",
+    "subtype": "mixed",
+    "template_id": "T_NETWORK",
+    "weight": 0.64,
+    "figure_id": "PMID_28566324_FIG_9",
+    "file": "examples/plots/composite_multipanel_figures.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Composition plots",
+    "subtype": "venn",
+    "template_id": "T_STACKED_BARS",
+    "weight": 0.7533,
+    "figure_id": "PMID_26510496_FIG_3",
+    "file": "examples/plots/composition_plots.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Dose-response and time-course plots",
+    "subtype": "kaplan_meier",
+    "template_id": "T_LINE_COMPARISON",
+    "weight": 0.82,
+    "figure_id": "PMID_35205761_FIG_5",
+    "file": "examples/plots/dose_response_and_time_course_plots.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Feature-importance plots",
+    "subtype": "importance_bars",
+    "template_id": "T_HORIZONTAL_BARS",
+    "weight": 0.64,
+    "figure_id": "PMID_41727639_FIG_7",
+    "file": "examples/plots/feature_importance_plots.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Forest and interval plots",
+    "subtype": "forest",
+    "template_id": "T_FOREST",
+    "weight": 0.49,
+    "figure_id": "PMID_41491099_FIG_4",
+    "file": "examples/plots/forest_and_interval_plots.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Heatmaps",
+    "subtype": "annotation_heatmap",
+    "template_id": "T_METRIC_HEATMAP",
+    "weight": 0.64,
+    "figure_id": "PMID_28297679_SUPP_FIG_6",
+    "file": "examples/plots/heatmaps.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Kaplan\u2013Meier curves",
+    "subtype": "kaplan_meier",
+    "template_id": "T_KAPLAN_MEIER",
+    "weight": 0.75,
+    "figure_id": "PMID_27081328_FIG_4",
+    "file": "examples/plots/kaplan_meier_curves.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Line charts",
+    "subtype": "multi_series_line",
+    "template_id": "T_LINE_COMPARISON",
+    "weight": 0.81,
+    "figure_id": "PMID_28263438_FIG_4",
+    "file": "examples/plots/line_charts.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Line plots",
+    "subtype": "performance_lines",
+    "template_id": "T_LINE_COMPARISON",
+    "weight": 1.0,
+    "figure_id": "PMID_27822312_FIG_2",
+    "file": "examples/plots/line_plots.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Mutation and oncoprint visualizations",
+    "subtype": "oncoprint",
+    "template_id": "T_METRIC_HEATMAP",
+    "weight": 0.64,
+    "figure_id": "PMID_28297679_FIG_1",
+    "file": "examples/plots/mutation_and_oncoprint_visualizations.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Network plots",
+    "subtype": "network",
+    "template_id": "T_ENRICHMENT_DOTS",
+    "weight": 0.64,
+    "figure_id": "PMID_25849288_FIG_4",
+    "file": "examples/plots/network_plots.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Oncoprint",
+    "subtype": "oncoprint_strip",
+    "template_id": "T_ONCOPRINT",
+    "weight": 0.49,
+    "figure_id": "PMID_33863885_SUPP_FIG_7",
+    "file": "examples/plots/oncoprint.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "PCA, UMAP, t-SNE, and other embeddings",
+    "subtype": "scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "weight": 1.0,
+    "figure_id": "PMID_40354612_FIG_3",
+    "file": "examples/plots/pca_umap_t_sne_and_other_embeddings.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Pathway and enrichment plots",
+    "subtype": "horizontal_bars",
+    "template_id": "T_HORIZONTAL_BARS",
+    "weight": 0.64,
+    "figure_id": "PMID_26564964_FIG_7",
+    "file": "examples/plots/pathway_and_enrichment_plots.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "ROC and precision-recall curves",
+    "subtype": "roc_plus_auc_bars",
+    "template_id": "T_ROC_PR",
+    "weight": 1.0,
+    "figure_id": "PMID_30842738_FIG_3",
+    "file": "examples/plots/roc_and_precision_recall_curves.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Resource-usage plots",
+    "subtype": "boxplot",
+    "template_id": "T_FACETED_BOXPLOT",
+    "weight": 0.64,
+    "figure_id": "PMID_32901013_FIG_5",
+    "file": "examples/plots/resource_usage_plots.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Sankey, alluvial, and flow plots",
+    "subtype": "alluvial",
+    "template_id": "T_ALLUVIAL",
+    "weight": 0.64,
+    "figure_id": "PMID_42721202_FIG_7",
+    "file": "examples/plots/sankey_alluvial_and_flow_plots.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Scatter and correlation plots",
+    "subtype": "marginal_scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "weight": 1.0,
+    "figure_id": "PMID_41099090_FIG_8",
+    "file": "examples/plots/scatter_and_correlation_plots.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Set-overlap plots",
+    "subtype": "venn",
+    "template_id": "T_SET_OVERLAP",
+    "weight": 0.81,
+    "figure_id": "PMID_33997893_FIG_2",
+    "file": "examples/plots/set_overlap_plots.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Venn diagrams",
+    "subtype": "four_set_venn",
+    "template_id": "T_WORKFLOW_SCHEMATIC",
+    "weight": 0.64,
+    "figure_id": "PMID_27821058_FIG_6",
+    "file": "examples/plots/venn_diagrams.png",
+    "status": "copied"
+  },
+  {
+    "kind": "plot",
+    "family": "Volcano and MA plots",
+    "subtype": "volcano",
+    "template_id": "T_THRESHOLD_SCATTER",
+    "weight": 0.6867,
+    "figure_id": "PMID_41099090_FIG_10",
+    "file": "examples/plots/volcano_and_ma_plots.png",
+    "status": "copied"
+  },
+  {
+    "kind": "panel_group",
+    "slug": "group_comparison_with_distribution",
+    "purpose": "Mean and SEM beside the distribution",
+    "file": "examples/panel_groups/group_comparison_with_distribution.png",
+    "status": "copied"
+  },
+  {
+    "kind": "panel_group",
+    "slug": "differential_expression_with_heatmap",
+    "purpose": "Volcano beside a heatmap of the same features",
+    "file": "examples/panel_groups/differential_expression_with_heatmap.png",
+    "status": "copied"
+  },
+  {
+    "kind": "panel_group",
+    "slug": "classification_roc_pr_calibration",
+    "purpose": "ROC, precision-recall, and calibration",
+    "file": "examples/panel_groups/classification_roc_pr_calibration.png",
+    "status": "copied"
+  },
+  {
+    "kind": "panel_group",
+    "slug": "pca_with_variance",
+    "purpose": "PCA scores beside variance explained",
+    "file": "examples/panel_groups/pca_with_variance.png",
+    "status": "copied"
+  },
+  {
+    "kind": "panel_group",
+    "slug": "dose_response_with_replicates",
+    "purpose": "Dose curve beside replicate distributions",
+    "file": "examples/panel_groups/dose_response_with_replicates.png",
+    "status": "copied"
+  },
+  {
+    "kind": "panel_group",
+    "slug": "survival_with_risk_table",
+    "purpose": "Kaplan-Meier beside number at risk",
+    "file": "examples/panel_groups/survival_with_risk_table.png",
+    "status": "copied"
+  },
+  {
+    "kind": "panel_group",
+    "slug": "enrichment_dots_and_bars",
+    "purpose": "Enrichment dots beside ranked bars",
+    "file": "examples/panel_groups/enrichment_dots_and_bars.png",
+    "status": "copied"
+  }
+]

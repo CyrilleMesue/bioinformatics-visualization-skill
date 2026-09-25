@@ -21,7 +21,7 @@ Do these steps before drawing.
 6. Do not treat a cross-validation fold or a technical replicate as an independent biological replicate.
 7. Choose panel mode. `single` means one panel. `auto` proposes the smallest set that answers the primary question, at most four panels unless the user asks for more. `specified` uses only the panels the user named. These modes are instructions to you. They are not arguments of `render`.
 8. For a candidate comparison, propose Atlas best, Evidence best, and Compact best on the same rows and the same assumptions. Do not draw them until the user chooses. This workflow is not an implemented function.
-9. Call `recommend` with the question, column names, and `milestone_8/template_rankings.json`. Then call `figures.render` or `figures.compose`.
+9. Open the matching style example before drawing. Plot-family examples and panel-group examples are in [examples/EXAMPLES.md](examples/EXAMPLES.md). Match layout, panel letters, typography, and uncertainty. Do not copy labels, sample names, or numbers from the example. Then call `recommend` with the question, column names, and `milestone_8/template_rankings.json`, and call `figures.render` or `figures.compose`.
 10. If no renderer can do the analysis, say so. Do not imitate the missing plot. Do not pass DESeq2 estimates to `volcano`. Do not call `grouped_bars` a paired test. Do not report a Cox model from `kaplan_meier`.
 11. Write PNG at 300 dpi, SVG, PDF, and `audit.json`. `render` also writes `plotting_data.csv` and `caption.txt`. `compose` writes the caption and audit, not the plotting CSV. There is no accessibility-report file. List colour, label, and uncertainty checks in the reply.
 
