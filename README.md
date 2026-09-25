@@ -41,3 +41,23 @@ Panel modes (`single`, `auto`, `specified`) and the three candidate designs are 
 Implemented: routing, template lookup from `milestone_8/template_rankings.json`, and the renderers in `visualization/figures.py`. Agent-guided: panel planning, candidate comparison, and an accessibility write-up. Not implemented: paired plots, UMAP, Cox models, and a volcano that reads DESeq2 output. Details are in the usage guide.
 
 Do not fabricate microscopy, blots, or molecular structures. Do not present a synthetic figure as a published result.
+
+## Sample plots
+
+These are synthetic reproductions graded 10. Standalone panels and grouped panels are separate. The full set, every grade 9 and 10 plus a grade 8 when that is the top grade in its family, is in [.cursor/skills/bioinformatics-visualization/examples/EXAMPLES.md](.cursor/skills/bioinformatics-visualization/examples/EXAMPLES.md).
+
+After a figure is drawn, compare it with the examples for that family. The result should be as clear: readable type, panel letters free of titles and legends, visible uncertainty, and space between panels. A grade 10 is not automatic. Use a grade 9 example when its layout stays readable and the grade 10 layout is crowded.
+
+### Standalone panels
+
+![ROC curve, grade 10](.cursor/skills/bioinformatics-visualization/examples/standalone/roc_and_precision_recall_curves_g10_PMID_41526548_FIG_6_b.png)
+
+![PCA scores, grade 10](.cursor/skills/bioinformatics-visualization/examples/standalone/pca_umap_t_sne_and_other_embeddings_g10_PMID_35592630_FIG_1_A.png)
+
+![Volcano plot, grade 10](.cursor/skills/bioinformatics-visualization/examples/standalone/volcano_and_ma_plots_g10_PMID_41099090_FIG_10_a.png)
+
+### Grouped panels
+
+![Scatter panels, grade 10](.cursor/skills/bioinformatics-visualization/examples/grouped/scatter_and_correlation_plots_g10_PMID_33517897_FIG_2_A-B.png)
+
+![Distribution panels, grade 10](.cursor/skills/bioinformatics-visualization/examples/grouped/box_violin_histogram_and_distribution_plots_g10_PMID_39186807_FIG_2_2020Rule-ConsistentSet-CGCpointMut-CGC-C.png)

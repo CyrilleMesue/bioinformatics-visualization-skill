@@ -195,6 +195,8 @@ Using the same rows, the same group order, and the same statistical assumptions,
 
 Colour changes alone are not three candidates. For each option record plot family, panel count, encodings, summaries, strengths, limitations, and what is omitted. Draw only after you choose.
 
+The highest template grade is a starting point, not the finish. Style examples are in [.cursor/skills/bioinformatics-visualization/examples/EXAMPLES.md](../.cursor/skills/bioinformatics-visualization/examples/EXAMPLES.md): standalone panels in one section, grouped panels in another. Every family exemplar graded 9 or 10 is there. A grade 8 is there only when 8 is the highest grade in that plot family. After a preview, compare the drawing with those examples for clarity and visibility. Keep a grade 9 layout when it stays readable and the grade 10 layout is crowded, overlaps labels, or hides the comparison.
+
 ## 13. Prompt templates
 
 Use [PROMPT_LIBRARY.md](PROMPT_LIBRARY.md). The eight situations in the milestone (minimal, publication, multi-dataset, candidates, explicit panels, automatic panel count, revision, and regenerate-without-new-statistics) are all in that file.
@@ -262,7 +264,8 @@ The audit should be readable as: which renderer, which test, which inputs were d
 7. Record which candidate you chose and why.
 8. Write final files under `figures/final/`.
 9. Read `audit.json` and check labels, legend, and colour.
-10. Keep the CSV, the YAML request, and the script.
+10. Compare the drawing with the standalone or grouped examples for that plot family. The figure should look as clear as those examples: type readable, panel letters clear of titles, legends, and neighbouring panels, uncertainty visible, and enough space between panels. If a grade 10 example is crowded for this table and a grade 9 example stays readable, match the grade 9 example.
+11. Keep the CSV, the YAML request, and the script.
 
 ## 17. Troubleshooting
 

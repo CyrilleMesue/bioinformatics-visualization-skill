@@ -1,281 +1,2051 @@
 [
   {
-    "kind": "plot",
+    "kind": "grouped",
     "family": "Bar plots with uncertainty or composition",
-    "subtype": "grouped_dose_bars",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "mean_sem_bars_plus_blot_schematic",
     "template_id": "T_GROUP_COMPARISON_BARS",
-    "weight": 1.0,
-    "figure_id": "PMID_27764787_FIG_1",
-    "file": "examples/plots/bar_plots_with_uncertainty_or_composition.png",
-    "status": "copied"
+    "preferred_version": "Reference-informed",
+    "figure_id": "PMID_26564964_FIG_2",
+    "panel_ids": [
+      "PMID_26564964_FIG_2__A",
+      "PMID_26564964_FIG_2__B",
+      "PMID_26564964_FIG_2__C",
+      "PMID_26564964_FIG_2__D",
+      "PMID_26564964_FIG_2__E",
+      "PMID_26564964_FIG_2__F",
+      "PMID_26564964_FIG_2__G",
+      "PMID_26564964_FIG_2__H"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/bar_plots_with_uncertainty_or_composition_g9_PMID_26564964_FIG_2_A-B-C-D-E-F-G-H.png"
   },
   {
-    "kind": "plot",
+    "kind": "grouped",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "mean_sem_bars_plus_blot_schematic",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Reference-informed",
+    "figure_id": "PMID_26564964_FIG_3",
+    "panel_ids": [
+      "PMID_26564964_FIG_3__A",
+      "PMID_26564964_FIG_3__B",
+      "PMID_26564964_FIG_3__D",
+      "PMID_26564964_FIG_3__E"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/bar_plots_with_uncertainty_or_composition_g9_PMID_26564964_FIG_3_A-B-D-E.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "mean_sem_bars",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Reference-informed",
+    "figure_id": "PMID_26564964_FIG_3",
+    "panel_ids": [
+      "PMID_26564964_FIG_3__C"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/bar_plots_with_uncertainty_or_composition_g9_PMID_26564964_FIG_3_C.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "mean_sem_bars_plus_blot_schematic",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Reference-informed",
+    "figure_id": "PMID_26564964_FIG_4",
+    "panel_ids": [
+      "PMID_26564964_FIG_4__A",
+      "PMID_26564964_FIG_4__B",
+      "PMID_26564964_FIG_4__C",
+      "PMID_26564964_FIG_4__E",
+      "PMID_26564964_FIG_4__F"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/bar_plots_with_uncertainty_or_composition_g9_PMID_26564964_FIG_4_A-B-C-E-F.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "mean_sem_bars",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Reference-informed",
+    "figure_id": "PMID_26564964_FIG_4",
+    "panel_ids": [
+      "PMID_26564964_FIG_4__D_counts"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/bar_plots_with_uncertainty_or_composition_g9_PMID_26564964_FIG_4_D_counts.png"
+  },
+  {
+    "kind": "grouped",
     "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "grouped_boxplot",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Reference-informed",
+    "figure_id": "PMID_26564964_FIG_5",
+    "panel_ids": [
+      "PMID_26564964_FIG_5__arachidonic",
+      "PMID_26564964_FIG_5__docosahexaenoic",
+      "PMID_26564964_FIG_5__linoleic"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_26564964_FIG_5_arachidonic-docosahexaenoic-linoleic.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "PCA, UMAP, t-SNE, and other embeddings",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "confidence_ellipse_embedding",
+    "template_id": "T_EMBEDDING_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_27716030_FIG_9",
+    "panel_ids": [
+      "PMID_27716030_FIG_9__missing10_a",
+      "PMID_27716030_FIG_9__missing10_b",
+      "PMID_27716030_FIG_9__missing30_a",
+      "PMID_27716030_FIG_9__missing30_b"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/pca_umap_t_sne_and_other_embeddings_g10_PMID_27716030_FIG_9_missing10_a-missing10_b-missing30_a-miss.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "mean_sem_bars_with_points",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_32492406_SUPP_FIG_1",
+    "panel_ids": [
+      "PMID_32492406_SUPP_FIG_1__WBC",
+      "PMID_32492406_SUPP_FIG_1__Lymphocyte",
+      "PMID_32492406_SUPP_FIG_1__Monocyte",
+      "PMID_32492406_SUPP_FIG_1__Platelet",
+      "PMID_32492406_SUPP_FIG_1__CRP",
+      "PMID_32492406_SUPP_FIG_1__ALT",
+      "PMID_32492406_SUPP_FIG_1__AST",
+      "PMID_32492406_SUPP_FIG_1__GGT",
+      "PMID_32492406_SUPP_FIG_1__TBIL",
+      "PMID_32492406_SUPP_FIG_1__DBIL",
+      "PMID_32492406_SUPP_FIG_1__Creatinine",
+      "PMID_32492406_SUPP_FIG_1__Glucose"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/bar_plots_with_uncertainty_or_composition_g9_PMID_32492406_SUPP_FIG_1_WBC-Lymphocyte-Monocyte-Platelet-CRP-ALT.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "ROC and precision-recall curves",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "roc",
+    "template_id": "T_ROC_PR",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_33294129_FIG_2",
+    "panel_ids": [
+      "PMID_33294129_FIG_2__Ecoli_roc",
+      "PMID_33294129_FIG_2__Scerevisiae_roc"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/roc_and_precision_recall_curves_g9_PMID_33294129_FIG_2_Ecoli_roc-Scerevisiae_roc.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "ROC and precision-recall curves",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "pr",
+    "template_id": "T_ROC_PR",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_33294129_FIG_2",
+    "panel_ids": [
+      "PMID_33294129_FIG_2__Ecoli_pr",
+      "PMID_33294129_FIG_2__Scerevisiae_pr"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/roc_and_precision_recall_curves_g9_PMID_33294129_FIG_2_Ecoli_pr-Scerevisiae_pr.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "labeled_metric_bars",
+    "template_id": "T_RANKED_METRIC_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_33431036_FIG_5",
+    "panel_ids": [
+      "PMID_33431036_FIG_5__NR",
+      "PMID_33431036_FIG_5__GPCR",
+      "PMID_33431036_FIG_5__IC",
+      "PMID_33431036_FIG_5__Enzyme"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/bar_plots_with_uncertainty_or_composition_g9_PMID_33431036_FIG_5_NR-GPCR-IC-Enzyme.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Feature-importance plots",
+    "grade": 8,
+    "family_max_grade": 8,
+    "subtype": "shap_beeswarm",
+    "template_id": "T_SHAP_SUMMARY",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_33499037_FIG_4",
+    "panel_ids": [
+      "PMID_33499037_FIG_4__a"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/feature_importance_plots_g8_PMID_33499037_FIG_4_a.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Scatter and correlation plots",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "threshold_scatter",
+    "template_id": "T_THRESHOLD_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_33517897_FIG_2",
+    "panel_ids": [
+      "PMID_33517897_FIG_2__A",
+      "PMID_33517897_FIG_2__B"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/scatter_and_correlation_plots_g10_PMID_33517897_FIG_2_A-B.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Scatter and correlation plots",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "correlation_scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_33517897_FIG_2",
+    "panel_ids": [
+      "PMID_33517897_FIG_2__C",
+      "PMID_33517897_FIG_2__D"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/scatter_and_correlation_plots_g10_PMID_33517897_FIG_2_C-D.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "ROC and precision-recall curves",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "roc",
+    "template_id": "T_ROC_PR",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_33517897_FIG_2",
+    "panel_ids": [
+      "PMID_33517897_FIG_2__F"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/roc_and_precision_recall_curves_g9_PMID_33517897_FIG_2_F.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Dose-response and time-course plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "grouped_line",
+    "template_id": "T_LINE_COMPARISON",
+    "preferred_version": "Atlas-optimized",
+    "figure_id": "PMID_33517897_FIG_3",
+    "panel_ids": [
+      "PMID_33517897_FIG_3__C"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/dose_response_and_time_course_plots_g9_PMID_33517897_FIG_3_C.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "PCA, UMAP, t-SNE, and other embeddings",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "score_scatter",
+    "template_id": "T_EMBEDDING_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_35813812_FIG_4",
+    "panel_ids": [
+      "PMID_35813812_FIG_4__A",
+      "PMID_35813812_FIG_4__B"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/pca_umap_t_sne_and_other_embeddings_g9_PMID_35813812_FIG_4_A-B.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "PCA, UMAP, t-SNE, and other embeddings",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "loading_scatter",
+    "template_id": "T_EMBEDDING_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_35813812_FIG_4",
+    "panel_ids": [
+      "PMID_35813812_FIG_4__C"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/pca_umap_t_sne_and_other_embeddings_g9_PMID_35813812_FIG_4_C.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Scatter and correlation plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "errorbar_grid",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_36749789_FIG_2",
+    "panel_ids": [
+      "PMID_36749789_FIG_2__b"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/scatter_and_correlation_plots_g9_PMID_36749789_FIG_2_b.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "grouped_bars",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_36749789_FIG_2",
+    "panel_ids": [
+      "PMID_36749789_FIG_2__c"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/bar_plots_with_uncertainty_or_composition_g9_PMID_36749789_FIG_2_c.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Pathway and enrichment plots",
+    "grade": 9,
+    "family_max_grade": 9,
+    "subtype": "horizontal_bar",
+    "template_id": "T_HORIZONTAL_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_36749789_FIG_3",
+    "panel_ids": [
+      "PMID_36749789_FIG_3__b",
+      "PMID_36749789_FIG_3__e"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/pathway_and_enrichment_plots_g9_PMID_36749789_FIG_3_b-e.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 10,
+    "family_max_grade": 10,
     "subtype": "method_boxplot",
     "template_id": "T_FACETED_BOXPLOT",
-    "weight": 1.0,
+    "preferred_version": "Tie",
     "figure_id": "PMID_39186807_FIG_2",
-    "file": "examples/plots/box_violin_histogram_and_distribution_plots.png",
-    "status": "copied"
+    "panel_ids": [
+      "PMID_39186807_FIG_2__2020Rule",
+      "PMID_39186807_FIG_2__ConsistentSet",
+      "PMID_39186807_FIG_2__CGCpointMut",
+      "PMID_39186807_FIG_2__CGC",
+      "PMID_39186807_FIG_2__CTAT",
+      "PMID_39186807_FIG_2__HCD",
+      "PMID_39186807_FIG_2__MouseMut",
+      "PMID_39186807_FIG_2__oncoGene",
+      "PMID_39186807_FIG_2__IntOGen"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g10_PMID_39186807_FIG_2_2020Rule-ConsistentSet-CGCpointMut-CGC-C.png"
   },
   {
-    "kind": "plot",
-    "family": "Composite multipanel figures",
-    "subtype": "mixed",
-    "template_id": "T_NETWORK",
-    "weight": 0.64,
-    "figure_id": "PMID_28566324_FIG_9",
-    "file": "examples/plots/composite_multipanel_figures.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "Composition plots",
-    "subtype": "venn",
-    "template_id": "T_STACKED_BARS",
-    "weight": 0.7533,
-    "figure_id": "PMID_26510496_FIG_3",
-    "file": "examples/plots/composition_plots.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "Dose-response and time-course plots",
-    "subtype": "kaplan_meier",
-    "template_id": "T_LINE_COMPARISON",
-    "weight": 0.82,
-    "figure_id": "PMID_35205761_FIG_5",
-    "file": "examples/plots/dose_response_and_time_course_plots.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "Feature-importance plots",
-    "subtype": "importance_bars",
-    "template_id": "T_HORIZONTAL_BARS",
-    "weight": 0.64,
-    "figure_id": "PMID_41727639_FIG_7",
-    "file": "examples/plots/feature_importance_plots.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "Forest and interval plots",
-    "subtype": "forest",
-    "template_id": "T_FOREST",
-    "weight": 0.49,
-    "figure_id": "PMID_41491099_FIG_4",
-    "file": "examples/plots/forest_and_interval_plots.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "Heatmaps",
-    "subtype": "annotation_heatmap",
-    "template_id": "T_METRIC_HEATMAP",
-    "weight": 0.64,
-    "figure_id": "PMID_28297679_SUPP_FIG_6",
-    "file": "examples/plots/heatmaps.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "Kaplan\u2013Meier curves",
-    "subtype": "kaplan_meier",
-    "template_id": "T_KAPLAN_MEIER",
-    "weight": 0.75,
-    "figure_id": "PMID_27081328_FIG_4",
-    "file": "examples/plots/kaplan_meier_curves.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "Line charts",
-    "subtype": "multi_series_line",
-    "template_id": "T_LINE_COMPARISON",
-    "weight": 0.81,
-    "figure_id": "PMID_28263438_FIG_4",
-    "file": "examples/plots/line_charts.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "Line plots",
-    "subtype": "performance_lines",
-    "template_id": "T_LINE_COMPARISON",
-    "weight": 1.0,
-    "figure_id": "PMID_27822312_FIG_2",
-    "file": "examples/plots/line_plots.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "Mutation and oncoprint visualizations",
-    "subtype": "oncoprint",
-    "template_id": "T_METRIC_HEATMAP",
-    "weight": 0.64,
-    "figure_id": "PMID_28297679_FIG_1",
-    "file": "examples/plots/mutation_and_oncoprint_visualizations.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "Network plots",
-    "subtype": "network",
-    "template_id": "T_ENRICHMENT_DOTS",
-    "weight": 0.64,
-    "figure_id": "PMID_25849288_FIG_4",
-    "file": "examples/plots/network_plots.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "Oncoprint",
-    "subtype": "oncoprint_strip",
-    "template_id": "T_ONCOPRINT",
-    "weight": 0.49,
-    "figure_id": "PMID_33863885_SUPP_FIG_7",
-    "file": "examples/plots/oncoprint.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "PCA, UMAP, t-SNE, and other embeddings",
-    "subtype": "scatter",
-    "template_id": "T_CORRELATION_SCATTER",
-    "weight": 1.0,
-    "figure_id": "PMID_40354612_FIG_3",
-    "file": "examples/plots/pca_umap_t_sne_and_other_embeddings.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "Pathway and enrichment plots",
-    "subtype": "horizontal_bars",
-    "template_id": "T_HORIZONTAL_BARS",
-    "weight": 0.64,
-    "figure_id": "PMID_26564964_FIG_7",
-    "file": "examples/plots/pathway_and_enrichment_plots.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "ROC and precision-recall curves",
-    "subtype": "roc_plus_auc_bars",
-    "template_id": "T_ROC_PR",
-    "weight": 1.0,
-    "figure_id": "PMID_30842738_FIG_3",
-    "file": "examples/plots/roc_and_precision_recall_curves.png",
-    "status": "copied"
-  },
-  {
-    "kind": "plot",
-    "family": "Resource-usage plots",
-    "subtype": "boxplot",
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "faceted_boxplot",
     "template_id": "T_FACETED_BOXPLOT",
-    "weight": 0.64,
-    "figure_id": "PMID_32901013_FIG_5",
-    "file": "examples/plots/resource_usage_plots.png",
-    "status": "copied"
+    "preferred_version": "Tie",
+    "figure_id": "PMID_39417321_FIG_4",
+    "panel_ids": [
+      "PMID_39417321_FIG_4__A",
+      "PMID_39417321_FIG_4__B"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_39417321_FIG_4_A-B.png"
   },
   {
-    "kind": "plot",
+    "kind": "standalone",
+    "family": "Heatmaps",
+    "grade": 9,
+    "family_max_grade": 9,
+    "subtype": "annotated_metric_heatmap",
+    "template_id": "T_METRIC_HEATMAP",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41526548_FIG_6",
+    "panel_ids": [
+      "PMID_41526548_FIG_6__a"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/heatmaps_g9_PMID_41526548_FIG_6_a.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "ROC and precision-recall curves",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "roc",
+    "template_id": "T_ROC_PR",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41526548_FIG_6",
+    "panel_ids": [
+      "PMID_41526548_FIG_6__b"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/roc_and_precision_recall_curves_g10_PMID_41526548_FIG_6_b.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "grouped_dose_bars",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Reference-informed",
+    "figure_id": "PMID_27764787_FIG_1",
+    "panel_ids": [
+      "PMID_27764787_FIG_1__A",
+      "PMID_27764787_FIG_1__B"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/bar_plots_with_uncertainty_or_composition_g10_PMID_27764787_FIG_1_A-B.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "grouped_bars",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Reference-informed",
+    "figure_id": "PMID_27764787_FIG_1",
+    "panel_ids": [
+      "PMID_27764787_FIG_1__C"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/bar_plots_with_uncertainty_or_composition_g9_PMID_27764787_FIG_1_C.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "PCA, UMAP, t-SNE, and other embeddings",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "pca_scores",
+    "template_id": "T_EMBEDDING",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_27821058_FIG_4",
+    "panel_ids": [
+      "PMID_27821058_FIG_4__a"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/pca_umap_t_sne_and_other_embeddings_g9_PMID_27821058_FIG_4_a.png"
+  },
+  {
+    "kind": "standalone",
     "family": "Sankey, alluvial, and flow plots",
+    "grade": 8,
+    "family_max_grade": 8,
     "subtype": "alluvial",
     "template_id": "T_ALLUVIAL",
-    "weight": 0.64,
+    "preferred_version": "Tie",
     "figure_id": "PMID_42721202_FIG_7",
-    "file": "examples/plots/sankey_alluvial_and_flow_plots.png",
-    "status": "copied"
+    "panel_ids": [
+      "PMID_42721202_FIG_7__A"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/sankey_alluvial_and_flow_plots_g8_PMID_42721202_FIG_7_A.png"
   },
   {
-    "kind": "plot",
+    "kind": "standalone",
     "family": "Scatter and correlation plots",
-    "subtype": "marginal_scatter",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "time_scatter",
     "template_id": "T_CORRELATION_SCATTER",
-    "weight": 1.0,
-    "figure_id": "PMID_41099090_FIG_8",
-    "file": "examples/plots/scatter_and_correlation_plots.png",
-    "status": "copied"
+    "preferred_version": "Tie",
+    "figure_id": "PMID_27640647_FIG_2",
+    "panel_ids": [
+      "PMID_27640647_FIG_2__d"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/scatter_and_correlation_plots_g9_PMID_27640647_FIG_2_d.png"
   },
   {
-    "kind": "plot",
+    "kind": "grouped",
+    "family": "PCA, UMAP, t-SNE, and other embeddings",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "mfa_scatter",
+    "template_id": "T_EMBEDDING",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_27716030_FIG_3",
+    "panel_ids": [
+      "PMID_27716030_FIG_3__true",
+      "PMID_27716030_FIG_3__MI",
+      "PMID_27716030_FIG_3__RI",
+      "PMID_27716030_FIG_3__MVI"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/pca_umap_t_sne_and_other_embeddings_g9_PMID_27716030_FIG_3_true-MI-RI-MVI.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Line charts",
+    "grade": 9,
+    "family_max_grade": 9,
+    "subtype": "multi_series_line",
+    "template_id": "T_LINE_COMPARISON",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28263438_FIG_4",
+    "panel_ids": [
+      "PMID_28263438_FIG_4__main"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/line_charts_g9_PMID_28263438_FIG_4_main.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "boxplot_column",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28546826_FIG_3",
+    "panel_ids": [
+      "PMID_28546826_FIG_3__a",
+      "PMID_28546826_FIG_3__b",
+      "PMID_28546826_FIG_3__c"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_28546826_FIG_3_a-b-c.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Line charts",
+    "grade": 9,
+    "family_max_grade": 9,
+    "subtype": "step_prediction_error",
+    "template_id": "T_LINE_COMPARISON",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28546826_FIG_4",
+    "panel_ids": [
+      "PMID_28546826_FIG_4__AML",
+      "PMID_28546826_FIG_4__BRCA"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/line_charts_g9_PMID_28546826_FIG_4_AML-BRCA.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "jitter_box",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_29228590_FIG_3",
+    "panel_ids": [
+      "PMID_29228590_FIG_3__MANOVA",
+      "PMID_29228590_FIG_3__RF"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_29228590_FIG_3_MANOVA-RF.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "jitter_box",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_29228590_FIG_6",
+    "panel_ids": [
+      "PMID_29228590_FIG_6__AAG_M",
+      "PMID_29228590_FIG_6__AAG_R",
+      "PMID_29228590_FIG_6__MTX_M",
+      "PMID_29228590_FIG_6__MTX_R"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_29228590_FIG_6_AAG_M-AAG_R-MTX_M-MTX_R.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Scatter and correlation plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "mutation_scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_31329928_FIG_5",
+    "panel_ids": [
+      "PMID_31329928_FIG_5__A"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/scatter_and_correlation_plots_g9_PMID_31329928_FIG_5_A.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Kaplan\u2013Meier curves",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "km",
+    "template_id": "T_KAPLAN_MEIER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_31329928_FIG_5",
+    "panel_ids": [
+      "PMID_31329928_FIG_5__B"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/kaplan_meier_curves_g9_PMID_31329928_FIG_5_B.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Kaplan\u2013Meier curves",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "km",
+    "template_id": "T_KAPLAN_MEIER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_33916856_FIG_2",
+    "panel_ids": [
+      "PMID_33916856_FIG_2__GBM",
+      "PMID_33916856_FIG_2__BIC",
+      "PMID_33916856_FIG_2__LSCC",
+      "PMID_33916856_FIG_2__COAD"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/kaplan_meier_curves_g9_PMID_33916856_FIG_2_GBM-BIC-LSCC-COAD.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "ROC and precision-recall curves",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "roc",
+    "template_id": "T_ROC_PR",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_34432150_FIG_5",
+    "panel_ids": [
+      "PMID_34432150_FIG_5__a",
+      "PMID_34432150_FIG_5__b",
+      "PMID_34432150_FIG_5__c",
+      "PMID_34432150_FIG_5__d",
+      "PMID_34432150_FIG_5__e",
+      "PMID_34432150_FIG_5__f"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/roc_and_precision_recall_curves_g10_PMID_34432150_FIG_5_a-b-c-d-e-f.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "ROC and precision-recall curves",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "roc",
+    "template_id": "T_ROC_PR",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_34432150_FIG_8",
+    "panel_ids": [
+      "PMID_34432150_FIG_8__a",
+      "PMID_34432150_FIG_8__b",
+      "PMID_34432150_FIG_8__c"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/roc_and_precision_recall_curves_g10_PMID_34432150_FIG_8_a-b-c.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "grouped_boxplot",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_39417321_FIG_6",
+    "panel_ids": [
+      "PMID_39417321_FIG_6__A",
+      "PMID_39417321_FIG_6__B",
+      "PMID_39417321_FIG_6__C",
+      "PMID_39417321_FIG_6__D"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_39417321_FIG_6_A-B-C-D.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "PCA, UMAP, t-SNE, and other embeddings",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_40354612_FIG_3",
+    "panel_ids": [
+      "PMID_40354612_FIG_3__a",
+      "PMID_40354612_FIG_3__b",
+      "PMID_40354612_FIG_3__c"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/pca_umap_t_sne_and_other_embeddings_g10_PMID_40354612_FIG_3_a-b-c.png"
+  },
+  {
+    "kind": "standalone",
     "family": "Set-overlap plots",
+    "grade": 9,
+    "family_max_grade": 9,
     "subtype": "venn",
     "template_id": "T_SET_OVERLAP",
-    "weight": 0.81,
+    "preferred_version": "Tie",
     "figure_id": "PMID_33997893_FIG_2",
-    "file": "examples/plots/set_overlap_plots.png",
-    "status": "copied"
+    "panel_ids": [
+      "PMID_33997893_FIG_2__A"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/set_overlap_plots_g9_PMID_33997893_FIG_2_A.png"
   },
   {
-    "kind": "plot",
+    "kind": "standalone",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "strip",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_33997893_FIG_2",
+    "panel_ids": [
+      "PMID_33997893_FIG_2__B"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/box_violin_histogram_and_distribution_plots_g9_PMID_33997893_FIG_2_B.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Scatter and correlation plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "strip_scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_33997893_FIG_2",
+    "panel_ids": [
+      "PMID_33997893_FIG_2__C"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/scatter_and_correlation_plots_g9_PMID_33997893_FIG_2_C.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "grouped_bars",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_40240000_FIG_6",
+    "panel_ids": [
+      "PMID_40240000_FIG_6__E",
+      "PMID_40240000_FIG_6__F"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/bar_plots_with_uncertainty_or_composition_g9_PMID_40240000_FIG_6_E-F.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Composite multipanel figures",
+    "grade": 8,
+    "family_max_grade": 8,
+    "subtype": "mixed",
+    "template_id": "T_STACKED_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_40598539_FIG_6",
+    "panel_ids": [
+      "PMID_40598539_FIG_6__A",
+      "PMID_40598539_FIG_6__B",
+      "PMID_40598539_FIG_6__C",
+      "PMID_40598539_FIG_6__D",
+      "PMID_40598539_FIG_6__E",
+      "PMID_40598539_FIG_6__F"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/composite_multipanel_figures_g8_PMID_40598539_FIG_6_A-B-C-D-E-F.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Composite multipanel figures",
+    "grade": 8,
+    "family_max_grade": 8,
+    "subtype": "mixed",
+    "template_id": "T_VOLCANO",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41099090_FIG_1",
+    "panel_ids": [
+      "PMID_41099090_FIG_1__a",
+      "PMID_41099090_FIG_1__b",
+      "PMID_41099090_FIG_1__c",
+      "PMID_41099090_FIG_1__d",
+      "PMID_41099090_FIG_1__e",
+      "PMID_41099090_FIG_1__f",
+      "PMID_41099090_FIG_1__g",
+      "PMID_41099090_FIG_1__h",
+      "PMID_41099090_FIG_1__i",
+      "PMID_41099090_FIG_1__j"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/composite_multipanel_figures_g8_PMID_41099090_FIG_1_a-b-c-d-e-f-g-h-i-j.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Set-overlap plots",
+    "grade": 9,
+    "family_max_grade": 9,
+    "subtype": "venn",
+    "template_id": "T_SET_OVERLAP",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41134033_FIG_5",
+    "panel_ids": [
+      "PMID_41134033_FIG_5__C"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/set_overlap_plots_g9_PMID_41134033_FIG_5_C.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Composite multipanel figures",
+    "grade": 8,
+    "family_max_grade": 8,
+    "subtype": "mixed",
+    "template_id": "T_SET_OVERLAP",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41188494_FIG_2",
+    "panel_ids": [
+      "PMID_41188494_FIG_2__A",
+      "PMID_41188494_FIG_2__B",
+      "PMID_41188494_FIG_2__C",
+      "PMID_41188494_FIG_2__D",
+      "PMID_41188494_FIG_2__E",
+      "PMID_41188494_FIG_2__F",
+      "PMID_41188494_FIG_2__G"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/composite_multipanel_figures_g8_PMID_41188494_FIG_2_A-B-C-D-E-F-G.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Resource-usage plots",
+    "grade": 8,
+    "family_max_grade": 8,
+    "subtype": "scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_32901013_FIG_5",
+    "panel_ids": [
+      "PMID_32901013_FIG_5__a"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/resource_usage_plots_g8_PMID_32901013_FIG_5_a.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Resource-usage plots",
+    "grade": 8,
+    "family_max_grade": 8,
+    "subtype": "trend",
+    "template_id": "T_LINE_COMPARISON",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_32901013_FIG_5",
+    "panel_ids": [
+      "PMID_32901013_FIG_5__b"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/resource_usage_plots_g8_PMID_32901013_FIG_5_b.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Resource-usage plots",
+    "grade": 8,
+    "family_max_grade": 8,
+    "subtype": "boxplot",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_32901013_FIG_5",
+    "panel_ids": [
+      "PMID_32901013_FIG_5__c"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/resource_usage_plots_g8_PMID_32901013_FIG_5_c.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Composite multipanel figures",
+    "grade": 8,
+    "family_max_grade": 8,
+    "subtype": "mixed",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28566324_FIG_7",
+    "panel_ids": [
+      "PMID_28566324_FIG_7__B",
+      "PMID_28566324_FIG_7__C",
+      "PMID_28566324_FIG_7__D",
+      "PMID_28566324_FIG_7__E",
+      "PMID_28566324_FIG_7__F"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/composite_multipanel_figures_g8_PMID_28566324_FIG_7_B-C-D-E-F.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Composite multipanel figures",
+    "grade": 8,
+    "family_max_grade": 8,
+    "subtype": "mixed",
+    "template_id": "T_NETWORK",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28566324_FIG_9",
+    "panel_ids": [
+      "PMID_28566324_FIG_9__A",
+      "PMID_28566324_FIG_9__B",
+      "PMID_28566324_FIG_9__C",
+      "PMID_28566324_FIG_9__D",
+      "PMID_28566324_FIG_9__E",
+      "PMID_28566324_FIG_9__F",
+      "PMID_28566324_FIG_9__G",
+      "PMID_28566324_FIG_9__H",
+      "PMID_28566324_FIG_9__I"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/composite_multipanel_figures_g8_PMID_28566324_FIG_9_A-B-C-D-E-F-G-H-I.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "PCA, UMAP, t-SNE, and other embeddings",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "confidence_ellipse_embedding",
+    "template_id": "T_EMBEDDING_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_35592630_FIG_1",
+    "panel_ids": [
+      "PMID_35592630_FIG_1__A"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/pca_umap_t_sne_and_other_embeddings_g10_PMID_35592630_FIG_1_A.png"
+  },
+  {
+    "kind": "grouped",
     "family": "Venn diagrams",
+    "grade": 8,
+    "family_max_grade": 8,
+    "subtype": "venn",
+    "template_id": "T_WORKFLOW_SCHEMATIC",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41359750_FIG_2",
+    "panel_ids": [
+      "PMID_41359750_FIG_2__b",
+      "PMID_41359750_FIG_2__m"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/venn_diagrams_g8_PMID_41359750_FIG_2_b-m.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "notched_boxplot",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_30842738_FIG_4",
+    "panel_ids": [
+      "PMID_30842738_FIG_4__MTBLS17-NEG",
+      "PMID_30842738_FIG_4__MTBLS17-POS",
+      "PMID_30842738_FIG_4__MTBLS19-NEG",
+      "PMID_30842738_FIG_4__MTBLS19-POS"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_30842738_FIG_4_MTBLS17-NEG-MTBLS17-POS-MTBLS19-NEG-MTBL.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "PCA, UMAP, t-SNE, and other embeddings",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "embedding_scatter",
+    "template_id": "T_EMBEDDING_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_40598539_FIG_7",
+    "panel_ids": [
+      "PMID_40598539_FIG_7__B",
+      "PMID_40598539_FIG_7__C"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/pca_umap_t_sne_and_other_embeddings_g9_PMID_40598539_FIG_7_B-C.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "strip",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_40598539_FIG_7",
+    "panel_ids": [
+      "PMID_40598539_FIG_7__F"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/box_violin_histogram_and_distribution_plots_g9_PMID_40598539_FIG_7_F.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Scatter and correlation plots",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "method_scatter",
+    "template_id": "T_THRESHOLD_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41134033_FIG_4",
+    "panel_ids": [
+      "PMID_41134033_FIG_4__A",
+      "PMID_41134033_FIG_4__B",
+      "PMID_41134033_FIG_4__C",
+      "PMID_41134033_FIG_4__D",
+      "PMID_41134033_FIG_4__E"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/scatter_and_correlation_plots_g10_PMID_41134033_FIG_4_A-B-C-D-E.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Scatter and correlation plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "volcano_scatter",
+    "template_id": "T_THRESHOLD_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_42721202_FIG_6",
+    "panel_ids": [
+      "PMID_42721202_FIG_6__B",
+      "PMID_42721202_FIG_6__C"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/scatter_and_correlation_plots_g9_PMID_42721202_FIG_6_B-C.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "density",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_27640647_FIG_3",
+    "panel_ids": [
+      "PMID_27640647_FIG_3__a",
+      "PMID_27640647_FIG_3__d"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_27640647_FIG_3_a-d.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Venn diagrams",
+    "grade": 8,
+    "family_max_grade": 8,
     "subtype": "four_set_venn",
     "template_id": "T_WORKFLOW_SCHEMATIC",
-    "weight": 0.64,
+    "preferred_version": "Tie",
     "figure_id": "PMID_27821058_FIG_6",
-    "file": "examples/plots/venn_diagrams.png",
-    "status": "copied"
+    "panel_ids": [
+      "PMID_27821058_FIG_6__main"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/venn_diagrams_g8_PMID_27821058_FIG_6_main.png"
   },
   {
-    "kind": "plot",
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "boxplot",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28299173_FIG_1",
+    "panel_ids": [
+      "PMID_28299173_FIG_1__A",
+      "PMID_28299173_FIG_1__B",
+      "PMID_28299173_FIG_1__C",
+      "PMID_28299173_FIG_1__D"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_28299173_FIG_1_A-B-C-D.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "PCA, UMAP, t-SNE, and other embeddings",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "confidence_ellipse_embedding",
+    "template_id": "T_EMBEDDING_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_29042495_FIG_3",
+    "panel_ids": [
+      "PMID_29042495_FIG_3__B"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/pca_umap_t_sne_and_other_embeddings_g9_PMID_29042495_FIG_3_B.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Dose-response and time-course plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "mean_band",
+    "template_id": "T_LINE_COMPARISON",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_34552244_SUPP_FIG_5",
+    "panel_ids": [
+      "PMID_34552244_SUPP_FIG_5__a",
+      "PMID_34552244_SUPP_FIG_5__b",
+      "PMID_34552244_SUPP_FIG_5__c",
+      "PMID_34552244_SUPP_FIG_5__d",
+      "PMID_34552244_SUPP_FIG_5__e"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/dose_response_and_time_course_plots_g9_PMID_34552244_SUPP_FIG_5_a-b-c-d-e.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "paired_violin",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_35205761_FIG_2",
+    "panel_ids": [
+      "PMID_35205761_FIG_2__A",
+      "PMID_35205761_FIG_2__B"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_35205761_FIG_2_A-B.png"
+  },
+  {
+    "kind": "standalone",
     "family": "Volcano and MA plots",
+    "grade": 10,
+    "family_max_grade": 10,
     "subtype": "volcano",
     "template_id": "T_THRESHOLD_SCATTER",
-    "weight": 0.6867,
+    "preferred_version": "Tie",
     "figure_id": "PMID_41099090_FIG_10",
-    "file": "examples/plots/volcano_and_ma_plots.png",
-    "status": "copied"
+    "panel_ids": [
+      "PMID_41099090_FIG_10__a"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/volcano_and_ma_plots_g10_PMID_41099090_FIG_10_a.png"
   },
   {
-    "kind": "panel_group",
-    "slug": "group_comparison_with_distribution",
-    "purpose": "Mean and SEM beside the distribution",
-    "file": "examples/panel_groups/group_comparison_with_distribution.png",
-    "status": "copied"
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "boxplot",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41099090_FIG_10",
+    "panel_ids": [
+      "PMID_41099090_FIG_10__b",
+      "PMID_41099090_FIG_10__d",
+      "PMID_41099090_FIG_10__e",
+      "PMID_41099090_FIG_10__f"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g10_PMID_41099090_FIG_10_b-d-e-f.png"
   },
   {
-    "kind": "panel_group",
-    "slug": "differential_expression_with_heatmap",
-    "purpose": "Volcano beside a heatmap of the same features",
-    "file": "examples/panel_groups/differential_expression_with_heatmap.png",
-    "status": "copied"
+    "kind": "grouped",
+    "family": "Scatter and correlation plots",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "correlation_scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41099090_FIG_10",
+    "panel_ids": [
+      "PMID_41099090_FIG_10__c",
+      "PMID_41099090_FIG_10__g",
+      "PMID_41099090_FIG_10__h",
+      "PMID_41099090_FIG_10__i"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/scatter_and_correlation_plots_g10_PMID_41099090_FIG_10_c-g-h-i.png"
   },
   {
-    "kind": "panel_group",
-    "slug": "classification_roc_pr_calibration",
-    "purpose": "ROC, precision-recall, and calibration",
-    "file": "examples/panel_groups/classification_roc_pr_calibration.png",
-    "status": "copied"
+    "kind": "grouped",
+    "family": "Scatter and correlation plots",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "marginal_scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41099090_FIG_8",
+    "panel_ids": [
+      "PMID_41099090_FIG_8__a",
+      "PMID_41099090_FIG_8__b",
+      "PMID_41099090_FIG_8__c"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/scatter_and_correlation_plots_g10_PMID_41099090_FIG_8_a-b-c.png"
   },
   {
-    "kind": "panel_group",
-    "slug": "pca_with_variance",
-    "purpose": "PCA scores beside variance explained",
-    "file": "examples/panel_groups/pca_with_variance.png",
-    "status": "copied"
+    "kind": "standalone",
+    "family": "Scatter and correlation plots",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "marginal_scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41188494_FIG_5",
+    "panel_ids": [
+      "PMID_41188494_FIG_5__D"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/scatter_and_correlation_plots_g10_PMID_41188494_FIG_5_D.png"
   },
   {
-    "kind": "panel_group",
-    "slug": "dose_response_with_replicates",
-    "purpose": "Dose curve beside replicate distributions",
-    "file": "examples/panel_groups/dose_response_with_replicates.png",
-    "status": "copied"
+    "kind": "standalone",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "bars",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28454561_FIG_1",
+    "panel_ids": [
+      "PMID_28454561_FIG_1__a"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/bar_plots_with_uncertainty_or_composition_g9_PMID_28454561_FIG_1_a.png"
   },
   {
-    "kind": "panel_group",
-    "slug": "survival_with_risk_table",
-    "purpose": "Kaplan-Meier beside number at risk",
-    "file": "examples/panel_groups/survival_with_risk_table.png",
-    "status": "copied"
+    "kind": "grouped",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "grouped_bars",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28454561_FIG_1",
+    "panel_ids": [
+      "PMID_28454561_FIG_1__b",
+      "PMID_28454561_FIG_1__c"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/bar_plots_with_uncertainty_or_composition_g9_PMID_28454561_FIG_1_b-c.png"
   },
   {
-    "kind": "panel_group",
-    "slug": "enrichment_dots_and_bars",
-    "purpose": "Enrichment dots beside ranked bars",
-    "file": "examples/panel_groups/enrichment_dots_and_bars.png",
-    "status": "copied"
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "boxplot",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28881994_FIG_2",
+    "panel_ids": [
+      "PMID_28881994_FIG_2__A_acc",
+      "PMID_28881994_FIG_2__B_val",
+      "PMID_28881994_FIG_2__C_alpha",
+      "PMID_28881994_FIG_2__D",
+      "PMID_28881994_FIG_2__E",
+      "PMID_28881994_FIG_2__F",
+      "PMID_28881994_FIG_2__A_lib"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_28881994_FIG_2_A_acc-B_val-C_alpha-D-E-F-A_lib.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "grouped_bars",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28881994_FIG_2",
+    "panel_ids": [
+      "PMID_28881994_FIG_2__B_bars"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/bar_plots_with_uncertainty_or_composition_g9_PMID_28881994_FIG_2_B_bars.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Dose-response and time-course plots",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "kaplan_meier",
+    "template_id": "T_LINE_COMPARISON",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_35205761_FIG_5",
+    "panel_ids": [
+      "PMID_35205761_FIG_5__A",
+      "PMID_35205761_FIG_5__B",
+      "PMID_35205761_FIG_5__C",
+      "PMID_35205761_FIG_5__D",
+      "PMID_35205761_FIG_5__E",
+      "PMID_35205761_FIG_5__F",
+      "PMID_35205761_FIG_5__G",
+      "PMID_35205761_FIG_5__H",
+      "PMID_35205761_FIG_5__I",
+      "PMID_35205761_FIG_5__J",
+      "PMID_35205761_FIG_5__K",
+      "PMID_35205761_FIG_5__L"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/dose_response_and_time_course_plots_g10_PMID_35205761_FIG_5_A-B-C-D-E-F-G-H-I-J-K-L.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "histogram",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41188494_FIG_4",
+    "panel_ids": [
+      "PMID_41188494_FIG_4__A",
+      "PMID_41188494_FIG_4__B"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_41188494_FIG_4_A-B.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Scatter and correlation plots",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41188494_FIG_4",
+    "panel_ids": [
+      "PMID_41188494_FIG_4__D",
+      "PMID_41188494_FIG_4__F"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/scatter_and_correlation_plots_g10_PMID_41188494_FIG_4_D-F.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Volcano and MA plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "volcano",
+    "template_id": "T_THRESHOLD_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41727639_FIG_6",
+    "panel_ids": [
+      "PMID_41727639_FIG_6__A"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/volcano_and_ma_plots_g9_PMID_41727639_FIG_6_A.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Mutation and oncoprint visualizations",
+    "grade": 8,
+    "family_max_grade": 8,
+    "subtype": "oncoprint",
+    "template_id": "T_METRIC_HEATMAP",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28297679_FIG_1",
+    "panel_ids": [
+      "PMID_28297679_FIG_1__A",
+      "PMID_28297679_FIG_1__B"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/mutation_and_oncoprint_visualizations_g8_PMID_28297679_FIG_1_A-B.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "ROC and precision-recall curves",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "roc",
+    "template_id": "T_ROC_PR",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_29270430_FIG_2",
+    "panel_ids": [
+      "PMID_29270430_FIG_2__a",
+      "PMID_29270430_FIG_2__b",
+      "PMID_29270430_FIG_2__c",
+      "PMID_29270430_FIG_2__d"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/roc_and_precision_recall_curves_g9_PMID_29270430_FIG_2_a-b-c-d.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "box_jitter",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41200185_FIG_11",
+    "panel_ids": [
+      "PMID_41200185_FIG_11__A",
+      "PMID_41200185_FIG_11__B",
+      "PMID_41200185_FIG_11__C",
+      "PMID_41200185_FIG_11__D",
+      "PMID_41200185_FIG_11__E",
+      "PMID_41200185_FIG_11__F",
+      "PMID_41200185_FIG_11__G",
+      "PMID_41200185_FIG_11__H",
+      "PMID_41200185_FIG_11__I",
+      "PMID_41200185_FIG_11__J"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_41200185_FIG_11_A-B-C-D-E-F-G-H-I-J.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "ROC and precision-recall curves",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "roc",
+    "template_id": "T_ROC_PR",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_26232237_FIG_4",
+    "panel_ids": [
+      "PMID_26232237_FIG_4__B1",
+      "PMID_26232237_FIG_4__B2",
+      "PMID_26232237_FIG_4__B3",
+      "PMID_26232237_FIG_4__B4",
+      "PMID_26232237_FIG_4__B5",
+      "PMID_26232237_FIG_4__K1",
+      "PMID_26232237_FIG_4__K2",
+      "PMID_26232237_FIG_4__K3",
+      "PMID_26232237_FIG_4__K4",
+      "PMID_26232237_FIG_4__K5"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/roc_and_precision_recall_curves_g10_PMID_26232237_FIG_4_B1-B2-B3-B4-B5-K1-K2-K3-K4-K5.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Dose-response and time-course plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "line",
+    "template_id": "T_LINE_COMPARISON",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_27081328_FIG_6",
+    "panel_ids": [
+      "PMID_27081328_FIG_6__A",
+      "PMID_27081328_FIG_6__B"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/dose_response_and_time_course_plots_g9_PMID_27081328_FIG_6_A-B.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Network plots",
+    "grade": 8,
+    "family_max_grade": 8,
+    "subtype": "network",
+    "template_id": "T_ENRICHMENT_DOTS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_25849288_FIG_4",
+    "panel_ids": [
+      "PMID_25849288_FIG_4__map",
+      "PMID_25849288_FIG_4__A",
+      "PMID_25849288_FIG_4__B",
+      "PMID_25849288_FIG_4__C",
+      "PMID_25849288_FIG_4__D",
+      "PMID_25849288_FIG_4__E",
+      "PMID_25849288_FIG_4__F",
+      "PMID_25849288_FIG_4__G",
+      "PMID_25849288_FIG_4__H"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/network_plots_g8_PMID_25849288_FIG_4_map-A-B-C-D-E-F-G-H.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Scatter and correlation plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "identity_scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Reference-informed",
+    "figure_id": "PMID_27100883_FIG_5",
+    "panel_ids": [
+      "PMID_27100883_FIG_5__A",
+      "PMID_27100883_FIG_5__B"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/scatter_and_correlation_plots_g9_PMID_27100883_FIG_5_A-B.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "ROC and precision-recall curves",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "roc",
+    "template_id": "T_ROC_PR",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_26896799_FIG_3",
+    "panel_ids": [
+      "PMID_26896799_FIG_3__B",
+      "PMID_26896799_FIG_3__D"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/roc_and_precision_recall_curves_g9_PMID_26896799_FIG_3_B-D.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "ROC and precision-recall curves",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "precision_recall",
+    "template_id": "T_ROC_PR",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_26896799_FIG_3",
+    "panel_ids": [
+      "PMID_26896799_FIG_3__C",
+      "PMID_26896799_FIG_3__E"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/roc_and_precision_recall_curves_g9_PMID_26896799_FIG_3_C-E.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Volcano and MA plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "volcano",
+    "template_id": "T_VOLCANO",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_27588394_FIG_2",
+    "panel_ids": [
+      "PMID_27588394_FIG_2__A"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/volcano_and_ma_plots_g9_PMID_27588394_FIG_2_A.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Scatter and correlation plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "highlight_scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_26510496_FIG_3",
+    "panel_ids": [
+      "PMID_26510496_FIG_3__A",
+      "PMID_26510496_FIG_3__B",
+      "PMID_26510496_FIG_3__C"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/scatter_and_correlation_plots_g9_PMID_26510496_FIG_3_A-B-C.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "density",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_26510496_FIG_3",
+    "panel_ids": [
+      "PMID_26510496_FIG_3__D"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/box_violin_histogram_and_distribution_plots_g9_PMID_26510496_FIG_3_D.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "density",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_27640647_SUPP_FIG_3",
+    "panel_ids": [
+      "PMID_27640647_SUPP_FIG_3__d"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/box_violin_histogram_and_distribution_plots_g9_PMID_27640647_SUPP_FIG_3_d.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Scatter and correlation plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "hazard_forest",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_40176039_FIG_4",
+    "panel_ids": [
+      "PMID_40176039_FIG_4__forest"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/scatter_and_correlation_plots_g9_PMID_40176039_FIG_4_forest.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Composition plots",
+    "grade": 9,
+    "family_max_grade": 9,
+    "subtype": "pie",
+    "template_id": "T_STACKED_BARS",
+    "preferred_version": "Atlas-optimized",
+    "figure_id": "PMID_25849288_FIG_3",
+    "panel_ids": [
+      "PMID_25849288_FIG_3__A",
+      "PMID_25849288_FIG_3__B"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/composition_plots_g9_PMID_25849288_FIG_3_A-B.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Composition plots",
+    "grade": 9,
+    "family_max_grade": 9,
+    "subtype": "venn",
+    "template_id": "T_STACKED_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41175941_FIG_4",
+    "panel_ids": [
+      "PMID_41175941_FIG_4__B"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/composition_plots_g9_PMID_41175941_FIG_4_B.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "grouped_bars",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41175941_FIG_4",
+    "panel_ids": [
+      "PMID_41175941_FIG_4__C"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/bar_plots_with_uncertainty_or_composition_g9_PMID_41175941_FIG_4_C.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "PCA, UMAP, t-SNE, and other embeddings",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "pca",
+    "template_id": "T_EMBEDDING",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41175941_FIG_4",
+    "panel_ids": [
+      "PMID_41175941_FIG_4__E"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/pca_umap_t_sne_and_other_embeddings_g9_PMID_41175941_FIG_4_E.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Kaplan\u2013Meier curves",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "kaplan_meier",
+    "template_id": "T_KAPLAN_MEIER",
+    "preferred_version": "",
+    "figure_id": "PMID_27081328_FIG_4",
+    "panel_ids": [
+      "PMID_27081328_FIG_4__A",
+      "PMID_27081328_FIG_4__B"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/kaplan_meier_curves_g9_PMID_27081328_FIG_4_A-B.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Scatter and correlation plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "threshold_scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_33517897_FIG_5",
+    "panel_ids": [
+      "PMID_33517897_FIG_5__B",
+      "PMID_33517897_FIG_5__C"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/scatter_and_correlation_plots_g9_PMID_33517897_FIG_5_B-C.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Scatter and correlation plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "diagonal_scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_29228590_FIG_5",
+    "panel_ids": [
+      "PMID_29228590_FIG_5__recall",
+      "PMID_29228590_FIG_5__f1"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/scatter_and_correlation_plots_g9_PMID_29228590_FIG_5_recall-f1.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Kaplan\u2013Meier curves",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "kaplan_meier",
+    "template_id": "T_KAPLAN_MEIER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_29925568_FIG_4",
+    "panel_ids": [
+      "PMID_29925568_FIG_4__B"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/kaplan_meier_curves_g10_PMID_29925568_FIG_4_B.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "PCA, UMAP, t-SNE, and other embeddings",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "pcoa",
+    "template_id": "T_EMBEDDING",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_35592630_FIG_2",
+    "panel_ids": [
+      "PMID_35592630_FIG_2__B"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/pca_umap_t_sne_and_other_embeddings_g9_PMID_35592630_FIG_2_B.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Bar plots with uncertainty or composition",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "grouped_bars",
+    "template_id": "T_GROUP_COMPARISON_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_39417321_FIG_7",
+    "panel_ids": [
+      "PMID_39417321_FIG_7__A",
+      "PMID_39417321_FIG_7__B",
+      "PMID_39417321_FIG_7__C",
+      "PMID_39417321_FIG_7__D"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/bar_plots_with_uncertainty_or_composition_g9_PMID_39417321_FIG_7_A-B-C-D.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Line plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "method_lines",
+    "template_id": "T_LINE_COMPARISON",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_40240000_FIG_5",
+    "panel_ids": [
+      "PMID_40240000_FIG_5__C",
+      "PMID_40240000_FIG_5__D",
+      "PMID_40240000_FIG_5__E"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/line_plots_g9_PMID_40240000_FIG_5_C-D-E.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Scatter and correlation plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "errorbar_scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_40240000_FIG_5",
+    "panel_ids": [
+      "PMID_40240000_FIG_5__F"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/scatter_and_correlation_plots_g9_PMID_40240000_FIG_5_F.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Line plots",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "performance_lines",
+    "template_id": "T_LINE_COMPARISON",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_27822312_FIG_2",
+    "panel_ids": [
+      "PMID_27822312_FIG_2__b",
+      "PMID_27822312_FIG_2__d"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/line_plots_g10_PMID_27822312_FIG_2_b-d.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "ROC and precision-recall curves",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "roc",
+    "template_id": "T_ROC_PR",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28263438_FIG_5",
+    "panel_ids": [
+      "PMID_28263438_FIG_5__roc"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/roc_and_precision_recall_curves_g10_PMID_28263438_FIG_5_roc.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "ROC and precision-recall curves",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "roc",
+    "template_id": "T_ROC_PR",
+    "preferred_version": "Atlas-optimized",
+    "figure_id": "PMID_27655048_FIG_5",
+    "panel_ids": [
+      "PMID_27655048_FIG_5__ROC"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/roc_and_precision_recall_curves_g9_PMID_27655048_FIG_5_ROC.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "Scatter and correlation plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "correlation_scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28263438_FIG_8",
+    "panel_ids": [
+      "PMID_28263438_FIG_8__scatter"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/scatter_and_correlation_plots_g9_PMID_28263438_FIG_8_scatter.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Scatter and correlation plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "correlation_scatter",
+    "template_id": "T_CORRELATION_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28299173_FIG_3",
+    "panel_ids": [
+      "PMID_28299173_FIG_3__A",
+      "PMID_28299173_FIG_3__B"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/scatter_and_correlation_plots_g9_PMID_28299173_FIG_3_A-B.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "grouped_boxplot",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28299173_FIG_5",
+    "panel_ids": [
+      "PMID_28299173_FIG_5__A",
+      "PMID_28299173_FIG_5__B"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_28299173_FIG_5_A-B.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Dose-response and time-course plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "dose_response",
+    "template_id": "T_LINE_COMPARISON",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_29101300_FIG_5",
+    "panel_ids": [
+      "PMID_29101300_FIG_5__C",
+      "PMID_29101300_FIG_5__F"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/dose_response_and_time_course_plots_g9_PMID_29101300_FIG_5_C-F.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "ROC and precision-recall curves",
+    "grade": 10,
+    "family_max_grade": 10,
+    "subtype": "roc_plus_auc_bars",
+    "template_id": "T_ROC_PR",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_30842738_FIG_3",
+    "panel_ids": [
+      "PMID_30842738_FIG_3__MTBLS17-NEG",
+      "PMID_30842738_FIG_3__MTBLS17-POS",
+      "PMID_30842738_FIG_3__MTBLS19-NEG",
+      "PMID_30842738_FIG_3__MTBLS19-POS"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/roc_and_precision_recall_curves_g10_PMID_30842738_FIG_3_MTBLS17-NEG-MTBLS17-POS-MTBLS19-NEG-MTBL.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Box, violin, histogram, and distribution plots",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "scatter",
+    "template_id": "T_FACETED_BOXPLOT",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41038884_FIG_3",
+    "panel_ids": [
+      "PMID_41038884_FIG_3__e",
+      "PMID_41038884_FIG_3__f"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/box_violin_histogram_and_distribution_plots_g9_PMID_41038884_FIG_3_e-f.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Kaplan\u2013Meier curves",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "kaplan_meier",
+    "template_id": "T_KAPLAN_MEIER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41491099_SUPP_FIG_10",
+    "panel_ids": [
+      "PMID_41491099_SUPP_FIG_10__CD3e_PanCK",
+      "PMID_41491099_SUPP_FIG_10__Ki67_PanCK",
+      "PMID_41491099_SUPP_FIG_10__CD44_EpCAM"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/kaplan_meier_curves_g9_PMID_41491099_SUPP_FIG_10_CD3e_PanCK-Ki67_PanCK-CD44_EpCAM.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Feature-importance plots",
+    "grade": 8,
+    "family_max_grade": 8,
+    "subtype": "importance_bars",
+    "template_id": "T_HORIZONTAL_BARS",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_41727639_FIG_7",
+    "panel_ids": [
+      "PMID_41727639_FIG_7__A",
+      "PMID_41727639_FIG_7__B",
+      "PMID_41727639_FIG_7__D"
+    ],
+    "assembly": "stitched_subset",
+    "file": "examples/grouped/feature_importance_plots_g8_PMID_41727639_FIG_7_A-B-D.png"
+  },
+  {
+    "kind": "standalone",
+    "family": "PCA, UMAP, t-SNE, and other embeddings",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "score_scatter",
+    "template_id": "T_EMBEDDING_SCATTER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_28297679_SUPP_FIG_6",
+    "panel_ids": [
+      "PMID_28297679_SUPP_FIG_6__A"
+    ],
+    "assembly": "single_panel",
+    "file": "examples/standalone/pca_umap_t_sne_and_other_embeddings_g9_PMID_28297679_SUPP_FIG_6_A.png"
+  },
+  {
+    "kind": "grouped",
+    "family": "Kaplan\u2013Meier curves",
+    "grade": 9,
+    "family_max_grade": 10,
+    "subtype": "km",
+    "template_id": "T_KAPLAN_MEIER",
+    "preferred_version": "Tie",
+    "figure_id": "PMID_37159669_FIG_2",
+    "panel_ids": [
+      "PMID_37159669_FIG_2__ESCA|RSF | Clinical+GEX",
+      "PMID_37159669_FIG_2__ESCA|RSF | All",
+      "PMID_37159669_FIG_2__ESCA|BlockForest | Clinical+GEX",
+      "PMID_37159669_FIG_2__ESCA|BlockForest | All",
+      "PMID_37159669_FIG_2__ESCA|Early | Clinical+GEX",
+      "PMID_37159669_FIG_2__ESCA|Early | All",
+      "PMID_37159669_FIG_2__ESCA|Late | Clinical+GEX",
+      "PMID_37159669_FIG_2__ESCA|Late | All",
+      "PMID_37159669_FIG_2__BLCA|RSF | Clinical+GEX",
+      "PMID_37159669_FIG_2__BLCA|RSF | All",
+      "PMID_37159669_FIG_2__BLCA|BlockForest | Clinical+GEX",
+      "PMID_37159669_FIG_2__BLCA|BlockForest | All",
+      "PMID_37159669_FIG_2__BLCA|Early | Clinical+GEX",
+      "PMID_37159669_FIG_2__BLCA|Early | All",
+      "PMID_37159669_FIG_2__BLCA|Late | Clinical+GEX",
+      "PMID_37159669_FIG_2__BLCA|Late | All",
+      "PMID_37159669_FIG_2__LIHC|RSF | Clinical+GEX",
+      "PMID_37159669_FIG_2__LIHC|RSF | All",
+      "PMID_37159669_FIG_2__LIHC|BlockForest | Clinical+GEX",
+      "PMID_37159669_FIG_2__LIHC|BlockForest | All",
+      "PMID_37159669_FIG_2__LIHC|Early | Clinical+GEX",
+      "PMID_37159669_FIG_2__LIHC|Early | All",
+      "PMID_37159669_FIG_2__LIHC|Late | Clinical+GEX",
+      "PMID_37159669_FIG_2__LIHC|Late | All"
+    ],
+    "assembly": "combined_figure",
+    "file": "examples/grouped/kaplan_meier_curves_g9_PMID_37159669_FIG_2.png"
   }
 ]
