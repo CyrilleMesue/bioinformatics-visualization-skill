@@ -1,0 +1,54 @@
+# Synthetic example.
+project: SYN_MTT
+question: "How does viability change across six doses?"
+intended_claim: "Show replicate viability and SEM at each dose."
+primary_and_secondary_questions:
+  primary: "Dose-response curve."
+  secondary: []
+input_files:
+  - data/processed/mtt.csv
+row_semantics: "One row is one well at one dose."
+column_mapping:
+  dose: dose
+  value: value
+result_types:
+  - raw_observation
+study_design: dose_response
+experimental_unit: well
+pairing: none
+repeated_measures: false
+nesting: none
+datasets:
+  - SYN_MTT
+cohorts: []
+modalities:
+  - MTT
+groups: []
+group_order: []
+methods:
+  - MTT
+metrics:
+  - viability
+comparisons: []
+statistics_supplied: []
+statistics_requested:
+  - SEM
+multiple_testing: none
+missing_data_policy: not_available
+normalization: percent_of_vehicle
+transformation: none
+scaling: none
+panel_mode: single
+maximum_panels: 1
+candidate_mode: none
+faceting: none
+colour_constraints: Okabe-Ito
+accessibility: []
+output_formats:
+  - png
+  - svg
+  - pdf
+caption_requirements: "Synthetic viability. No IC50 is fitted."
+prohibited_operations:
+  - invent IC50
+notes: "Renderer dose_response."

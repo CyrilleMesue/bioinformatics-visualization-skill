@@ -1,0 +1,4 @@
+column,meaning,type,unit,role,allowed_values,missing_value_meaning
+sample_id,Identifier of the biological sample,text,,identifies,any,not_applicable
+group,Condition compared in the figure,text,,stratifies,study-specific,not_available
+value,Number plotted for this result type,number,see unit,measures,any,not_available

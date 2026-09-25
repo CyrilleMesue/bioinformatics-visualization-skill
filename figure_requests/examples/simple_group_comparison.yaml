@@ -1,0 +1,58 @@
+# Synthetic example request. Not a biological result.
+project: SYN_GROUP
+question: "Does the treated group differ from control?"
+intended_claim: "Show the group difference with uncertainty."
+primary_and_secondary_questions:
+  primary: "Treated versus control on one assay."
+  secondary: []
+input_files:
+  - data_templates/group_comparison_long.csv
+row_semantics: "One row is one independent sample."
+column_mapping:
+  group: group
+  value: value
+result_types:
+  - raw_observation
+study_design: independent
+experimental_unit: sample_id
+pairing: none
+repeated_measures: false
+nesting: none
+datasets:
+  - SYN_DATASET
+cohorts: []
+modalities:
+  - assay
+groups:
+  - Control
+  - Treated
+group_order:
+  - Control
+  - Treated
+methods: []
+metrics: []
+comparisons:
+  - Treated_vs_Control
+statistics_supplied: []
+statistics_requested:
+  - SEM
+multiple_testing: none
+missing_data_policy: not_available
+normalization: none
+transformation: none
+scaling: none
+panel_mode: single
+maximum_panels: 1
+candidate_mode: atlas_evidence_compact
+faceting: none
+colour_constraints: Okabe-Ito
+accessibility:
+  - readable labels
+output_formats:
+  - png
+  - svg
+  - pdf
+caption_requirements: "Label the figure as synthetic."
+prohibited_operations:
+  - paired test
+notes: "grouped_bars runs Welch on the first two groups."

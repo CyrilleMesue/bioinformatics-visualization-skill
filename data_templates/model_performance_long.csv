@@ -1,0 +1,5 @@
+experiment_id,dataset,model,metric,estimate,fold,split,result_type
+SYN_MODEL,SYN_COHORT_A,Alpha,AUROC,0.71,,external,external_validation_metric
+SYN_MODEL,SYN_COHORT_A,Beta,AUROC,0.80,,external,external_validation_metric
+SYN_MODEL,SYN_COHORT_B,Alpha,AUROC,0.66,,external,external_validation_metric
+SYN_MODEL,SYN_COHORT_B,Beta,AUROC,0.74,,external,external_validation_metric

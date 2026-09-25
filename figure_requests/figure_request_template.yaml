@@ -1,0 +1,63 @@
+# Template only. Replace every example value. Numbers are synthetic placeholders.
+# See docs/USAGE_GUIDE.md. Panel mode and candidate mode are agent-guided, not renderer arguments.
+
+project: SYN_PROJECT
+question: "State the primary scientific question."
+intended_claim: "State the claim the figure must support."
+primary_and_secondary_questions:
+  primary: "Primary question."
+  secondary:
+    - "Only questions that support the same claim."
+input_files:
+  - data/processed/example.csv
+row_semantics: "One row is one independent sample."
+column_mapping:
+  group: group
+  value: value
+result_types:
+  - raw_observation
+study_design: independent
+experimental_unit: sample_id
+pairing: none
+repeated_measures: false
+nesting: none
+datasets:
+  - SYN_DATASET
+cohorts: []
+modalities:
+  - assay
+groups:
+  - Control
+  - Treated
+group_order:
+  - Control
+  - Treated
+methods: []
+metrics: []
+comparisons:
+  - Treated_vs_Control
+statistics_supplied: []
+statistics_requested:
+  - "SEM of replicates if rows are replicates"
+multiple_testing: none
+missing_data_policy: not_available
+normalization: none
+transformation: none
+scaling: none
+panel_mode: single
+maximum_panels: 4
+candidate_mode: none
+faceting: none
+colour_constraints: Okabe-Ito
+accessibility:
+  - readable labels
+  - no 3D
+output_formats:
+  - png
+  - svg
+  - pdf
+caption_requirements: "State that values are synthetic when they are."
+prohibited_operations:
+  - invent statistics
+  - fabricate microscopy or blots
+notes: "Replace this template before use."

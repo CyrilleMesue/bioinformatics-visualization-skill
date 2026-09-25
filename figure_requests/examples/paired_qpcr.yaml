@@ -1,0 +1,59 @@
+# Synthetic example. The bar renderer is not a paired test.
+project: SYN_QPCR
+question: "Did expression change within subject?"
+intended_claim: "Paired pre versus post comparison."
+primary_and_secondary_questions:
+  primary: "Within-subject change."
+  secondary: []
+input_files:
+  - data/processed/qpcr.csv
+row_semantics: "One row is one subject in one condition."
+column_mapping:
+  subject_id: subject_id
+  group: group
+  value: value
+result_types:
+  - raw_observation
+study_design: paired
+experimental_unit: subject_id
+pairing: subject_id
+repeated_measures: false
+nesting: none
+datasets:
+  - SYN_QPCR
+cohorts: []
+modalities:
+  - RT-qPCR
+groups:
+  - Pre
+  - Post
+group_order:
+  - Pre
+  - Post
+methods:
+  - RT-qPCR
+metrics: []
+comparisons:
+  - Post_vs_Pre
+statistics_supplied: []
+statistics_requested:
+  - paired difference
+multiple_testing: none
+missing_data_policy: not_available
+normalization: none
+transformation: none
+scaling: none
+panel_mode: single
+maximum_panels: 1
+candidate_mode: none
+faceting: none
+colour_constraints: Okabe-Ito
+accessibility: []
+output_formats:
+  - png
+  - svg
+  - pdf
+caption_requirements: "Do not call a Welch bar chart a paired test."
+prohibited_operations:
+  - grouped_bars as a paired analysis
+notes: "stats.paired_t is not used by any renderer."

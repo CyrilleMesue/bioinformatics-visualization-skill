@@ -1,0 +1,57 @@
+# Synthetic example. One row is a metric summary, not a patient.
+project: SYN_MODELS
+question: "Which model has the higher external AUROC in each dataset?"
+intended_claim: "Compare supplied AUROC values across datasets."
+primary_and_secondary_questions:
+  primary: "External AUROC by model and dataset."
+  secondary: []
+input_files:
+  - data_templates/model_performance_long.csv
+row_semantics: "One row is one model-dataset-metric summary."
+column_mapping:
+  estimate: value
+  model_dataset: group
+result_types:
+  - external_validation_metric
+study_design: external_validation
+experimental_unit: model_dataset_metric
+pairing: none
+repeated_measures: false
+nesting: none
+datasets:
+  - SYN_COHORT_A
+  - SYN_COHORT_B
+cohorts:
+  - SYN_COHORT_A
+  - SYN_COHORT_B
+modalities:
+  - clinical_score
+groups: []
+group_order: []
+methods: []
+metrics:
+  - AUROC
+comparisons: []
+statistics_supplied:
+  - AUROC
+statistics_requested: []
+multiple_testing: none
+missing_data_policy: not_available
+normalization: none
+transformation: none
+scaling: none
+panel_mode: single
+maximum_panels: 1
+candidate_mode: none
+faceting: dataset
+colour_constraints: Okabe-Ito
+accessibility:
+  - do not treat summaries as patients
+output_formats:
+  - png
+  - svg
+  - pdf
+caption_requirements: "Say the metrics were supplied and the numbers are synthetic."
+prohibited_operations:
+  - t test across rows
+notes: "Map estimate to value only for display."

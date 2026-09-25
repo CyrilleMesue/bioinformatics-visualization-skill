@@ -1,0 +1,3 @@
+experiment_id,feature,comparison,estimate,p_adjusted,unit,result_type
+SYN_DE,GENE1,Treated_vs_Control,1.2,0.01,log2 fold change,differential_feature
+SYN_DE,GENE2,Treated_vs_Control,-0.4,0.40,log2 fold change,differential_feature

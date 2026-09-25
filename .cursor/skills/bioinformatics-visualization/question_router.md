@@ -1,5 +1,7 @@
 # Scientific-question router
 
+The canonical column contracts and renderer mismatches are in [docs/DATA_SCHEMAS.md](../../../docs/DATA_SCHEMAS.md). This table matches `recommend.QUESTION_ROUTES` and the current renderers.
+
 Each category lists the primary plot, companions, required columns, and a plot to avoid.
 
 | Category | Primary | Companions | Required columns | Avoid |
@@ -14,7 +16,7 @@ Each category lists the primary plot, companions, required columns, and a plot t
 | Survival and time-to-event analysis | Kaplan–Meier | Number at risk | time, event, group | Mean survival when times are censored |
 | Feature importance and model interpretation | Horizontal bars | Performance curve | feature, importance | Reading importance as causation |
 | Enrichment and pathway analysis | Enrichment dots | Bars of leading terms | term, neglog10p | Untresholded hairball |
-| Genomic alterations and mutation patterns | Alteration bars | Binary alteration heatmap | sample, value | Fabricated mutation calls |
+| Genomic alterations and mutation patterns | Alteration bars | Binary alteration heatmap | value, group | Fabricated mutation calls |
 | Network structure and molecular interactions | Network of supplied edges | Edge table | source, target | Edges that were not supplied |
 | Experimental validation | Bars with replicates | User-supplied assay image | value, group | Generated blot or micrograph |
 | Biomarker discovery and validation | ROC | Importance bars | label, score | Training AUC reported as external validation |

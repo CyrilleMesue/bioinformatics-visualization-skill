@@ -1,0 +1,5 @@
+experiment_id,subject_id,group,time,event,result_type
+SYN_SURV,P1,Low,40,1,raw_observation
+SYN_SURV,P2,Low,80,0,raw_observation
+SYN_SURV,P3,High,12,1,raw_observation
+SYN_SURV,P4,High,30,1,raw_observation

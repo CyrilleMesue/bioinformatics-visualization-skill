@@ -1,0 +1,4 @@
+experiment_id,source,target,result_type
+SYN_NET,A,B,network_edge
+SYN_NET,B,C,network_edge
+SYN_NET,A,C,network_edge

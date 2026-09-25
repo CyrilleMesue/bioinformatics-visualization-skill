@@ -1,0 +1,5 @@
+experiment_id,subject_id,timepoint,value,unit,result_type
+SYN_LONG,A1,0,1.0,score,raw_observation
+SYN_LONG,A1,7,1.4,score,raw_observation
+SYN_LONG,A2,0,0.8,score,raw_observation
+SYN_LONG,A2,7,0.9,score,raw_observation

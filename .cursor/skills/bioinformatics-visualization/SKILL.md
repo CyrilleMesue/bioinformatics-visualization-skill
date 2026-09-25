@@ -9,32 +9,24 @@ description: >-
 
 # Bioinformatics scientific visualization
 
-Follow this sequence. Ask a focused question when a required input is missing.
+Read [docs/USAGE_GUIDE.md](../../../docs/USAGE_GUIDE.md) for researcher-facing rules. Column contracts are in [docs/DATA_SCHEMAS.md](../../../docs/DATA_SCHEMAS.md). Copy-ready prompts are in [docs/PROMPT_LIBRARY.md](../../../docs/PROMPT_LIBRARY.md).
 
-1. Identify the scientific question.
-2. Identify the study design.
-3. Inspect the data schema and variable types.
-4. Determine whether observations are independent, paired, repeated, nested, censored, spatial, temporal, or networked.
-5. Identify the appropriate statistical analysis.
-6. Recommend a primary visualization.
-7. Recommend companion panels where scientifically useful.
-8. Explain the recommendation briefly.
-9. Generate the figure with the highest-ranked compatible template.
-10. Validate the statistics and the visual encoding.
-11. Export the figure, code, plotting data, and audit.
+Do these steps before drawing.
 
-## Routing and safeguards
+1. Restate the scientific question and the claim the figure must support.
+2. State the experimental unit and what one row means.
+3. Name the study design: independent, paired, repeated, nested, censored, temporal, or networked.
+4. Map columns. If `result_type` mixes AUROC, fold change, hazard ratios, and raw expression in `value`, stop and split the table.
+5. List statistics already in the file and statistics the user asked to compute. Compute only what `visualization/stats.py` and the chosen renderer implement.
+6. Do not treat a cross-validation fold or a technical replicate as an independent biological replicate.
+7. Choose panel mode. `single` means one panel. `auto` proposes the smallest set that answers the primary question, at most four panels unless the user asks for more. `specified` uses only the panels the user named. These modes are instructions to you. They are not arguments of `render`.
+8. For a candidate comparison, propose Atlas best, Evidence best, and Compact best on the same rows and the same assumptions. Do not draw them until the user chooses. This workflow is not an implemented function.
+9. Call `recommend` with the question, column names, and `milestone_8/template_rankings.json`. Then call `figures.render` or `figures.compose`.
+10. If no renderer can do the analysis, say so. Do not imitate the missing plot. Do not pass DESeq2 estimates to `volcano`. Do not call `grouped_bars` a paired test. Do not report a Cox model from `kaplan_meier`.
+11. Write PNG at 300 dpi, SVG, PDF, and `audit.json`. `render` also writes `plotting_data.csv` and `caption.txt`. `compose` writes the caption and audit, not the plotting CSV. There is no accessibility-report file. List colour, label, and uncertainty checks in the reply.
 
-Read [question_router.md](question_router.md) for the 20 question categories. Read [plot_families.md](plot_families.md) for family and subtype rankings. Read [safeguards.md](safeguards.md) before reporting a p-value, interval, area, or hazard ratio.
+`compose` supports panel letters A–H only.
 
-Use `bioinformatics_visual_evidence_atlas.visualization.recommend.recommend` with the question, column names, and `milestone_8/template_rankings.json`. Generate with `visualization.figures.render`.
+Family grades in the rankings file choose a visual template. They do not validate a statistical test. A human grade outranks an assumed grade of 5. A design marked Neither is not a default.
 
-Family and template grades choose a design inside a family. Do not copy a whole-figure score onto every panel. A human grade outranks an assumed grade of 5. A design marked Neither is not a default. Simplified designs are provisional.
-
-## Output
-
-Write SVG, PDF, and 300 dpi PNG, plus plotting data, a config file, a short caption, a statistical audit, and an accessibility check. Use Okabe–Ito colours, bold axis text, a regular-weight legend, and no 3D effects.
-
-## Boundaries
-
-Do not invent statistics. Do not fabricate microscopy, blots, or molecular structures. Do not copy source-paper numbers, labels, or claims into a new figure. See [examples.md](examples.md) and [troubleshooting.md](troubleshooting.md).
+Read [question_router.md](question_router.md), [plot_families.md](plot_families.md), and [safeguards.md](safeguards.md) before reporting a p-value. Do not invent statistics. Do not fabricate microscopy, blots, or molecular structures. Do not copy source-paper numbers into a new figure.

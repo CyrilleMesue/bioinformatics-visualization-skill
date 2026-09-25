@@ -1,0 +1,60 @@
+# Synthetic example.
+project: SYN_SURVIVAL
+question: "Do the two groups differ in time to event?"
+intended_claim: "Kaplan-Meier curves with number at risk."
+primary_and_secondary_questions:
+  primary: "Two-group survival."
+  secondary: []
+input_files:
+  - data_templates/survival_long.csv
+row_semantics: "One row is one subject."
+column_mapping:
+  time: time
+  event: event
+  group: group
+result_types:
+  - raw_observation
+study_design: censored
+experimental_unit: subject_id
+pairing: none
+repeated_measures: false
+nesting: none
+datasets:
+  - SYN_SURVIVAL
+cohorts: []
+modalities:
+  - time_to_event
+groups:
+  - Low
+  - High
+group_order:
+  - Low
+  - High
+methods: []
+metrics: []
+comparisons:
+  - High_vs_Low
+statistics_supplied: []
+statistics_requested:
+  - Kaplan-Meier
+  - log-rank
+  - Mantel-Haenszel hazard ratio
+multiple_testing: none
+missing_data_policy: not_available
+normalization: none
+transformation: none
+scaling: none
+panel_mode: specified
+maximum_panels: 2
+candidate_mode: none
+faceting: none
+colour_constraints: Okabe-Ito
+accessibility: []
+output_formats:
+  - png
+  - svg
+  - pdf
+caption_requirements: "Synthetic times. Hazard ratio is Mantel-Haenszel, not Cox."
+prohibited_operations:
+  - Cox model claim
+notes: "Renderers kaplan_meier and risk_table."

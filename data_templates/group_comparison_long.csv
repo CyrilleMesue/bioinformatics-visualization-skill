@@ -1,0 +1,5 @@
+experiment_id,sample_id,group,value,unit,result_type
+SYN_EXP,S1,Control,1.1,relative expression,raw_observation
+SYN_EXP,S2,Control,0.9,relative expression,raw_observation
+SYN_EXP,S3,Treated,1.8,relative expression,raw_observation
+SYN_EXP,S4,Treated,2.0,relative expression,raw_observation

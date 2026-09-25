@@ -1,5 +1,7 @@
 # Troubleshooting
 
+The diagnostic table is in [docs/USAGE_GUIDE.md](../../../docs/USAGE_GUIDE.md).
+
 - Missing column: the router returns `missing_columns`. Ask for that column. Do not invent it.
 - Empty category or constant variable: the test returns a missing p-value and the figure has no significance mark.
 - Neither preference: choose the next eligible template, or ask the user which style to use.

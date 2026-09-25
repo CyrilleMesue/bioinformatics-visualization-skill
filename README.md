@@ -1,8 +1,15 @@
 # Bioinformatics visualization skill
 
-Clone this repository into a project, or copy its skill folder into a project you already have. Cursor then uses the skill when you ask for a scientific figure.
+This repository is a Cursor skill and a small Python plotting library. Use it in a new bioinformatics project when you have tidy tables from several experiments, datasets, or models and you need a figure that matches the scientific question.
 
-The skill recommends a plot from the scientific question and the table you supply, then writes a publication-style figure. It does not include the source papers or their figures.
+It recommends a plot family and can draw the renderers listed in [docs/DATA_SCHEMAS.md](docs/DATA_SCHEMAS.md). It does not download papers or run DESeq2, a Cox model, or a mixed model. Atlas template grades are visual preferences, not proof that a test fits your study.
+
+Start here: [docs/QUICK_START.md](docs/QUICK_START.md).
+
+- Full guide: [docs/USAGE_GUIDE.md](docs/USAGE_GUIDE.md)
+- Columns and renderer mismatches: [docs/DATA_SCHEMAS.md](docs/DATA_SCHEMAS.md)
+- Copy-ready prompts: [docs/PROMPT_LIBRARY.md](docs/PROMPT_LIBRARY.md)
+- Skill instructions: [.cursor/skills/bioinformatics-visualization/SKILL.md](.cursor/skills/bioinformatics-visualization/SKILL.md)
 
 ## Install
 
@@ -10,47 +17,27 @@ The skill recommends a plot from the scientific question and the table you suppl
 git clone https://github.com/CyrilleMesue/bioinformatics-visualization-skill.git
 cd bioinformatics-visualization-skill
 python -m pip install -r requirements.txt
+export PYTHONPATH=src
+python -c "from bioinformatics_visual_evidence_atlas.visualization import recommend; print('ok')"
 ```
 
-Dependencies are NumPy, Matplotlib, SciPy, and scikit-learn. They are listed in `requirements.txt`.
+Copy `.cursor/skills/bioinformatics-visualization` into the project where you will chat. There is no `[build-system]` entry, so do not rely on `pip install -e .`.
 
-## Use the skill in any project
+## Minimal data and prompt
 
-From the project root:
+Synthetic rows in [data_templates/group_comparison_long.csv](data_templates/group_comparison_long.csv). One row is one sample.
 
-```bash
-mkdir -p .cursor/skills
-cp -a /path/to/bioinformatics-visualization-skill/.cursor/skills/bioinformatics-visualization .cursor/skills/
+```text
+Primary question: Does the treated group differ from control?
+File: data_templates/group_comparison_long.csv
+One row is one independent sample. Columns: group, value.
+Panel mode: single.
 ```
 
-Keep this repository on `PYTHONPATH` when the agent runs the plotting code:
+Panel modes (`single`, `auto`, `specified`) and the three candidate designs are instructions to the agent. They are not function arguments. `figures.render` writes PNG, SVG, PDF, `plotting_data.csv`, `caption.txt`, and `audit.json`.
 
-```bash
-export PYTHONPATH=/path/to/bioinformatics-visualization-skill/src
-```
+## What the code does and does not do
 
-Open a new Cursor chat in that project and ask for a figure. Name the scientific question and attach a table whose columns match the question. When a required column is missing, the skill asks for it.
+Implemented: routing, template lookup from `milestone_8/template_rankings.json`, and the renderers in `visualization/figures.py`. Agent-guided: panel planning, candidate comparison, and an accessibility write-up. Not implemented: paired plots, UMAP, Cox models, and a volcano that reads DESeq2 output. Details are in the usage guide.
 
-Template choice uses `milestone_8/template_rankings.json` in this repository. Human grades outrank an assumed grade. A design marked Neither is not a default.
-
-## Example prompts
-
-- Plot normalized MTT viability for six doses with individual replicates, uncertainty, and multiple-comparison results. Columns: `dose`, `value`.
-- Compare AUROC, F1, and MCC across five models and three cohorts. Columns: `value`, `group`.
-- Show whether AD and control samples separate in PCA and display the variance explained. Columns: `feature`, `sample`, `value`, and `group` for colour.
-- Create a publication-ready heatmap of significant miRNA–target associations. Columns: `feature`, `sample`, `value`.
-- Generate a Kaplan–Meier plot with a number-at-risk table and hazard-ratio annotation. Columns: `time`, `event`, `group`.
-
-More routing detail is in `.cursor/skills/bioinformatics-visualization/`.
-
-## Run one example
-
-```bash
-PYTHONPATH=src python examples/plot_two_groups.py
-```
-
-The script writes `examples/output/two_groups.png`, plus SVG and PDF. The numbers are synthetic.
-
-## What is not in this repository
-
-Paper PDFs, published figure images, and the human rating export stay in the local atlas. This package learns from template rankings only. Do not present a generated plot as a published result. Photographs, microscopy, and blots are not generated.
+Do not fabricate microscopy, blots, or molecular structures. Do not present a synthetic figure as a published result.

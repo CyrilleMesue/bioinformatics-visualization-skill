@@ -1,5 +1,7 @@
 # Plot families and subtypes
 
+A high template grade is a visual preference. It does not show that the matching statistical test is valid for a new study. See [docs/USAGE_GUIDE.md](../../../docs/USAGE_GUIDE.md).
+
 Keep subtype rankings separate. Do not use a bar template for a survival question because the bar template scored higher in another family.
 
 - Bars: simple, grouped, stacked, ranked, paired

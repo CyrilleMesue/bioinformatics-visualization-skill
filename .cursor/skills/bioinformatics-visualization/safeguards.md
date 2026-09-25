@@ -1,5 +1,7 @@
 # Statistical safeguards
 
+Researcher-facing rules and the implemented test list are in [docs/USAGE_GUIDE.md](../../../docs/USAGE_GUIDE.md). `grouped_bars` always uses a Welch test on the first two groups. `stats.paired_t` is not called by a renderer. The volcano recomputes Welch tests and does not accept a DESeq2, edgeR, or limma table. PCA fills missing values with 0 and does not scale. `kaplan_meier` reports a Mantel–Haenszel hazard ratio, not a Cox model. Folds are not biological replicates.
+
 Compute statistics from the supplied table. If a number cannot be computed, omit it.
 
 - Independent groups: Welch t test. Paired observations: paired t test. Do not switch these.
